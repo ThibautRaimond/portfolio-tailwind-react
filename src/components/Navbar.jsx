@@ -20,36 +20,36 @@ const Navbar = () => {
 			{/* menu */}
 			<div>
 				<ul className="hidden md:flex">
-					<li>
 						<Link to="home" mooth={true} duration={500}>
+					<li>
 							{" "}
 							Accueil{" "}
-						</Link>
 					</li>
-					<li>
+						</Link>
 						<Link to="about" mooth={true} duration={500}>
+					<li>
 							{" "}
 							Profil{" "}
-						</Link>
 					</li>
-					<li>
+						</Link>
 						<Link to="skills" mooth={true} duration={500}>
+					<li>
 							{" "}
 							Compétences{" "}
-						</Link>
 					</li>
-					<li>
+						</Link>
 						<Link to="work" mooth={true} duration={500}>
+					<li>
 							{" "}
 							Projets{" "}
-						</Link>
 					</li>
-					<li>
+						</Link>
 						<Link to="contact" mooth={true} duration={500}>
+					<li>
 							{" "}
 							Contact{" "}
-						</Link>
 					</li>
+						</Link>
 				</ul>
 			</div>
 
