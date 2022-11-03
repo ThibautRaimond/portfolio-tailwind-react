@@ -1,5 +1,7 @@
 import React from 'react';
 import CodeDuDev from '../assets/projects/CodeDuDev.jpg';
+import {HiArrowNarrowRight} from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Work = () => {
     return (
@@ -31,8 +33,20 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-        </div>
+			
+			<div>
+				
+		</div>
 
+
+        </div>
+				<div className='flex justify-center mt-10'>
+			<button> 
+					<Link to= "contact" mooth={true} duration={500} className='work-bot-button text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 border-[#999b99] border-opacity-25 hover:text-white hover:border-white'>
+							Me contacter <span className='group-hover:rotate-90 duration-300'> <HiArrowNarrowRight className='ml-3'/> </span>
+						</Link>
+                    </button>
+				</div>
         </div>
     </div>
 

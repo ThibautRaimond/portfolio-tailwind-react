@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import {BsFillPersonLinesFill } from 'react-icons/bs';
 import {AiOutlineProfile} from 'react-icons/ai'
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll'
@@ -96,6 +95,7 @@ const Navbar = () => {
 					</Link>{" "}
 				</li>
 			</ul>
+			
 
 			{/* Social icons*/}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
@@ -138,6 +138,6 @@ const Navbar = () => {
 			</div>
 		</div>
 	);
-  }
-  
-  export default Navbar;
+}
+
+export default Navbar;

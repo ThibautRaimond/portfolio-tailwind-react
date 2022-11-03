@@ -9,6 +9,8 @@ import Sequelize from '../assets/sequelize.png';
 import PSQL from '../assets/psql.png';
 import GitHub from '../assets/github.png';
 
+import {HiArrowNarrowRight} from 'react-icons/hi';
+import { Link } from 'react-scroll';
 
 const Skills = () => {
     return (
@@ -16,7 +18,7 @@ const Skills = () => {
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                <p className='text-4xl font-bold inline border-b-4 border-[#07ed66]'>Experience</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#07ed66]'>Compétences</p>
                 <p className='py-4'>Voici les technologies que j'ai déjà utlisées</p>
                 </div>
 
@@ -55,8 +57,16 @@ const Skills = () => {
                         <img className='w-20 mx-auto' src={GitHub} alt="Github icon" />
                         <p className='my-4'>Github</p>
                     </div>
+					
 
                 </div>
+					<div className='flex justify-center'>
+					<button className='skills-bot-button mx-auto my-auto'> 
+					<Link to= "work" mooth={true} duration={500} className='text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white'>
+							Mes projets récents <span className='group-hover:rotate-90 duration-300'> <HiArrowNarrowRight className='ml-3'/> </span>
+						</Link>
+                    </button>
+					</div>
             </div>
         </div>
     );

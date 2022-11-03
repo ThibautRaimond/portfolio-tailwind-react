@@ -35,18 +35,40 @@
 	object-fit: cover;
 }
 
-.thib_container{
-
-}
 
 .thib{
-	background:  linear-gradient(
-	#3c8340, transparent);
-	width: 22rem;
-	height: 22rem;
-	left: calc(50% - 11rem);
-	margin-top: 4rem;
-	border-radius: 100%;
-	overflow: hidden;
+	background: linear-gradient( 
+		#5f8661, transparent);
+		width: 22rem;
+		height: 22rem;
+		left: calc(50% - 11rem);
+		border-radius: 100%;
+		overflow: hidden;
+	}
 	
-}
+	
+	@media screen and (max-width: 1000px){
+		.profil-bot-button,
+		.skills-bot-button,
+		.work-bot-button{
+			display: none;
+		}
+
+	@media screen and (max-width: 850px){
+		.thib{
+			width: 15rem;
+			height: 15rem;
+		}
+		}
+
+	@media screen and (max-width: 640px){
+		.profil-left-container{
+		display: none;;
+		}
+		.profil-textSection{
+			margin-bottom: 6em ;
+		}
+	}
+	
+		}
+	
