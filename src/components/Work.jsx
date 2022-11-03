@@ -22,7 +22,7 @@ const Work = () => {
                 </span>
                 <div className='pt-8 text-center'>
                     <a href="https://yannou.philoucorp.fr/">
-                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 '>Demo</button>
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 '>URL</button>
                     </a>
                     <a href="https://github.com/O-clock-Atome/projet-4-le-code-du-dev.git">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 '>Code</button>

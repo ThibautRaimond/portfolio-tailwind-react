@@ -28,3 +28,25 @@
     #151F32
     )!important;
 }
+
+.profil-img{
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+.thib_container{
+
+}
+
+.thib{
+	background:  linear-gradient(
+	#3c8340, transparent);
+	width: 22rem;
+	height: 22rem;
+	left: calc(50% - 11rem);
+	margin-top: 4rem;
+	border-radius: 100%;
+	overflow: hidden;
+	
+}

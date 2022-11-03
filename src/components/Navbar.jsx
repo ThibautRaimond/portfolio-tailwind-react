@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import {BsFillPersonLinesFill } from 'react-icons/bs';
+import {AiOutlineProfile} from 'react-icons/ai'
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll'
 
@@ -123,7 +124,7 @@ const Navbar = () => {
 							href="https://cvthibautraimond.netlify.app/"
 							target="_blank"
 						>
-							CV <BsFillPersonLinesFill size={30} />
+							CV <AiOutlineProfile size={30} />
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ea4335]">
