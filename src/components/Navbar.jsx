@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/logo.png';
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -17,9 +18,22 @@ const Navbar = () => {
     {/* menu */}
     <div>
     <ul className='hidden md:flex'>
-    <li>Accueil</li>
-    <li>Profil</li>
-    <li>Compétences</li>
+    <li>
+    <Link activeClass="active" to="home" mooth={true} duration={500}> Accueil </Link>
+    </li>
+    <li>
+    <Link activeClass="active" to="profil" mooth={true} duration={500}> Profil </Link>
+    </li>
+    <li>
+    <Link activeClass="active" to="skills" mooth={true} duration={500}> Compétences </Link>
+    </li>
+    <li>
+    <Link activeClass="active" to="work" mooth={true} duration={500}> Projets </Link>
+    </li>
+    <li>
+    <Link activeClass="active" to="contact" mooth={true} duration={500}> Contact </Link>
+    </li>
+
     <li>Projets</li>
     <li>Contact</li>
     </ul>
