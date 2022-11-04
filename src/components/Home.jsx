@@ -20,7 +20,7 @@ const Home = () => {
 							to="about"
 							mooth={true}
 							duration={500}
-							className="text-white group flex items-center hover:bg-[#07ed66] hover:border-[#07ed66] hover:text-[#0e1111] flex border-2 px-6 py-3 my-2"
+							className="text-white group flex items-center hover:bg-[#07ed66] hover:border-[#07ed66] hover:text-#0e1111] flex border-2 px-6 py-3 my-2"
 						>
 							Voir mon profil
 							<span className="group-hover:rotate-90 duration-300">
