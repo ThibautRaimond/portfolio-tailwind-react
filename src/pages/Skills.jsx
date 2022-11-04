@@ -10,7 +10,7 @@ import PSQL from "../assets/psql.png";
 import GitHub from "../assets/github.png";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Skills = () => {
 	return (
@@ -69,13 +69,13 @@ const Skills = () => {
 				<div className="flex justify-center">
 					<button className="skills-bot-button mx-auto my-auto">
 						<Link
-							to="work"
+							to="/work"
 							mooth={true}
 							duration={500}
 							className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
 						>
 							Mes projets récents{" "}
-							<span className="group-hover:rotate-90 duration-300">
+							<span className="">
 								{" "}
 								<HiArrowNarrowRight className="ml-3" />{" "}
 							</span>

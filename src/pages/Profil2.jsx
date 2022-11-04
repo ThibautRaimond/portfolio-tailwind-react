@@ -2,13 +2,13 @@ import React from "react";
 import thib from "../assets/thib.png";
 import CV from "../assets/CV.pdf";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const About = () => {
 	return (
 		<div
-			name="about"
-			className="w-full h-screen bg-[#0e1111] text-gray-300 flex flex-col items-center justify-center profil"
+			name="profil"
+			className="w-full h-screen bg-[#0e1111] text-gray-300 flex flex-col items-center justify-center"
 		>
 			<h1 className="text-4xl font-bold inline border-b-4 mb-20 mt-10 border-[#07ed66]">
 				Profil
@@ -29,7 +29,7 @@ const About = () => {
 				</div>
 
 				<div className="profil-textSection">
-					<p className="py-4 text-xl text-center max-w-lg ">
+					<p className="text-xl text-center max-w-lg ">
 						Enchanté je m'appelle Thibaut et j'ai récemment découvert une
 						passion pour le développement web. J'ai donc choisi de suivre la
 						formation FullStack JavaScript chez{" "}
@@ -60,13 +60,13 @@ const About = () => {
 
 			<button className="mt-10 profil-bot-button">
 				<Link
-					to="skills"
+					to="/skills"
 					mooth={true}
 					duration={500}
 					className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
 				>
 					Mes compétences
-					<span className="group-hover:rotate-90 duration-300">
+					<span className="">
 						{" "}
 						<HiArrowNarrowRight className="ml-3" />{" "}
 					</span>

@@ -1,5 +1,4 @@
 import React from "react";
-import { FaArrowCircleUp } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const Contact = () => {
@@ -41,14 +40,13 @@ const Contact = () => {
 					rows="10"
 					placeholder="Message"
 				></textarea>
-				<button className="text-white border-2 px-4 py-3 my-8 hover:bg-[#07ed66] hover:border-[#07ed66] hover:text-black hover:text-bold">
+				<button
+					className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-xs px-6 py-4
+						rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-15"
+					type="button"
+				>
 					Collaborons ensemble
 				</button>
-				{/* <button className="flex justify-center">
-					<Link
-						to="home" mooth={true} duration={500} className=""> <FaArrowCircleUp className="h-10 w-10 mt-12 text-white " />{" "}
-					</Link>
-				</button> */}
 			</form>
 		</div>
 	);

@@ -4,8 +4,6 @@ import {
 	FaTimes,
 	FaGithub,
 	FaLinkedin,
-	FaFacebook,
-	FaLinkedinIn,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineProfile } from "react-icons/ai";
@@ -17,9 +15,9 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111] text-gray-300 shadow-md shadow-[#040c16]">
+		<div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111] text-gray-300 shadow-md shadow-[#040c16]">
 			<div>
-				<Link to="home">
+				<Link to="/">
 					<img
 						src={Logo}
 						className="cursor-pointer"
@@ -35,7 +33,7 @@ const Navbar = () => {
 					<Link to="/" mooth={true} duration={500}>
 						<li> Accueil </li>
 					</Link>
-					<Link to="/about" mooth={true} duration={500}>
+					<Link to="/profil" mooth={true} duration={500}>
 						<li> Profil </li>
 					</Link>
 					<Link to="/skills" mooth={true} duration={500}>
@@ -70,7 +68,7 @@ const Navbar = () => {
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/about" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/profil" mooth={true} duration={500}>
 						{" "}
 						Profil{" "}
 					</Link>{" "}
