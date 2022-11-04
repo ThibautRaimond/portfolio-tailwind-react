@@ -6,8 +6,8 @@ import { Link } from 'react-scroll';
 
 const About = () => {
 	return (
-		<div name="about" className="w-full h-screen bg-[#0e1111] text-gray-300 flex flex-col items-center justify-center">
-			<h1 className="text-4xl font-bold inline border-b-4 mb-20 border-[#07ed66]">Profil</h1>
+		<div name="about" className="w-full h-screen bg-[#0e1111] text-gray-300 flex flex-col items-center justify-center profil">
+			<h1 className="text-4xl font-bold inline border-b-4 mb-20 mt-10 border-[#07ed66]">Profil</h1>
 			
 			<div className="flex items-center p-1 shadow-md shadow-[#040c16]">
 
