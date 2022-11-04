@@ -54,14 +54,20 @@
 			display: none;
 		}
 
-	@media screen and (max-width: 850px){
+	@media screen and (max-width: 800px){
 		.thib{
-			width: 15rem;
-			height: 15rem;
+			width: 20rem;
+			height: 20rem;
 		}
 		}
+		@media screen and (max-width: 740px){
+			.thib{
+				width: 15rem;
+				height: 15rem;
+			}
+			}
 
-	@media screen and (max-width: 640px){
+	@media screen and (max-width: 650px){
 		.profil-left-container{
 		display: none;;
 		}

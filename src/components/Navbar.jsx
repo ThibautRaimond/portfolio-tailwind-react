@@ -15,7 +15,7 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111] text-gray-300 shadow-md shadow-[#040c16]">
+		<div className="relative w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111cb] text-gray-300 shadow-md shadow-[#040c16]">
 			<div>
 				<Link to="/">
 					<img
@@ -86,14 +86,14 @@ const Navbar = () => {
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/contact" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/ontact" mooth={true} duration={500}>
 						{" "}
 						Contact{" "}
 					</Link>{" "}
 				</li>
 			</ul>
 
-			{/* Social icons*/}
+			{/* ----------------------- Social icons ----------------------- */}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
 				<ul>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2] ">
