@@ -1,55 +1,52 @@
-import React, { useState } from 'react';
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaFacebook, FaLinkedinIn } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import {AiOutlineProfile} from 'react-icons/ai'
-import Logo from '../assets/logo.png';
-import { Link } from 'react-scroll'
+import React, { useState } from "react";
+import {
+	FaBars,
+	FaTimes,
+	FaGithub,
+	FaLinkedin,
+	FaFacebook,
+	FaLinkedinIn,
+} from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineProfile } from "react-icons/ai";
+import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-	const [nav, setNav] = useState(false)
-	const handleClick = () => setNav(!nav)
+	const [nav, setNav] = useState(false);
+	const handleClick = () => setNav(!nav);
 
 	return (
 		<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111] text-gray-300 shadow-md shadow-[#040c16]">
 			<div>
-			<Link to= "home">
-				<img src={Logo} className='cursor-pointer' alt="Logo Image" style={{ width: "50px" }} />
-			</Link>
+				<Link to="home">
+					<img
+						src={Logo}
+						className="cursor-pointer"
+						alt="Logo Image"
+						style={{ width: "50px" }}
+					/>
+				</Link>
 			</div>
 
 			{/* menu */}
 			<div>
 				<ul className="hidden md:flex">
-						<Link to="home" mooth={true} duration={500}>
-					<li>
-							{" "}
-							Accueil{" "}
-					</li>
-						</Link>
-						<Link to="about" mooth={true} duration={500}>
-					<li>
-							{" "}
-							Profil{" "}
-					</li>
-						</Link>
-						<Link to="skills" mooth={true} duration={500}>
-					<li>
-							{" "}
-							Compétences{" "}
-					</li>
-						</Link>
-						<Link to="work" mooth={true} duration={500}>
-					<li>
-							{" "}
-							Projets{" "}
-					</li>
-						</Link>
-						<Link to="contact" mooth={true} duration={500}>
-					<li>
-							{" "}
-							Contact{" "}
-					</li>
-						</Link>
+					<Link to="/" mooth={true} duration={500}>
+						<li> Accueil </li>
+					</Link>
+					<Link to="/about" mooth={true} duration={500}>
+						<li> Profil </li>
+					</Link>
+					<Link to="/skills" mooth={true} duration={500}>
+						<li> Compétences </li>
+					</Link>
+					<Link to="/work" mooth={true} duration={500}>
+						<li> Projets </li>
+					</Link>
+					<Link to="/contact" mooth={true} duration={500}>
+						<li> Contact </li>
+					</Link>
 				</ul>
 			</div>
 
@@ -67,37 +64,36 @@ const Navbar = () => {
 				}
 			>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="home" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/" mooth={true} duration={500}>
 						{" "}
 						Accueil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="about" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/about" mooth={true} duration={500}>
 						{" "}
 						Profil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="skills" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/skills" mooth={true} duration={500}>
 						{" "}
 						Compétences{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="work" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/work" mooth={true} duration={500}>
 						{" "}
 						Projets{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="contact" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/contact" mooth={true} duration={500}>
 						{" "}
 						Contact{" "}
 					</Link>{" "}
 				</li>
 			</ul>
-			
 
 			{/* Social icons*/}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
@@ -107,6 +103,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://www.linkedin.com/in/thibaut-raimond-0a46791ab/"
 							target="_blank"
+							rel="noreferrer"
 						>
 							Linkedin <FaLinkedin size={30} />
 						</a>
@@ -116,6 +113,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://github.com/ThibautRaimond"
 							target="_blank"
+							rel="noreferrer"
 						>
 							Github <FaGithub size={30} />
 						</a>
@@ -125,6 +123,7 @@ const Navbar = () => {
 							className="flex justify-between items-center w-full text-gray-300"
 							href="https://cvthibautraimond.netlify.app/"
 							target="_blank"
+							rel="noreferrer"
 						>
 							CV <AiOutlineProfile size={30} />
 						</a>
@@ -140,6 +139,6 @@ const Navbar = () => {
 			</div>
 		</div>
 	);
-}
+};
 
 export default Navbar;

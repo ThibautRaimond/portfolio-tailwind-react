@@ -1,7 +1,6 @@
 {
-    "launch": {
-    
-        "configurations": [],
-        "compounds": []
-    }
-}
+    "eslint.format.enable": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+        }
+  }

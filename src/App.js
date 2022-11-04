@@ -1,21 +1,26 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import { Routes, Route } from "react-router-dom";
+import ResetScroll from "./components/ResetScoll";
+
+import Layout from "./components/Layout";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Skills from "./pages/Skills";
+import Work from "./pages/Work";
 
 function App() {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Work />
-      <Contact />
-    </div>
-  );
+	return (
+		<Layout>
+			<ResetScroll />
+			<Routes>
+				<Route path="/" element={<Home />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/skills" element={<Skills />} />
+				<Route path="/work" element={<Work />} />
+				<Route path="/contact" element={<Contact />} />
+			</Routes>
+		</Layout>
+	);
 }
 
 export default App;
