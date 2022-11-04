@@ -23,10 +23,10 @@ const Work = () => {
                     HTML/CSS/JS/SQL Application
                 </span>
                 <div className='pt-8 text-center'>
-                    <a href="https://yannou.philoucorp.fr/">
+                    <a href="https://yannou.philoucorp.fr/" target="_blank">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 '>URL</button>
                     </a>
-                    <a href="https://github.com/O-clock-Atome/projet-4-le-code-du-dev.git">
+                    <a href="https://github.com/O-clock-Atome/projet-4-le-code-du-dev.git" target="_blank">
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 '>Code</button>
                     </a>
 

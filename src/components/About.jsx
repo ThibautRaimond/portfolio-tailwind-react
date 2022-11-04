@@ -22,8 +22,8 @@ const About = () => {
 				<div className='profil-textSection'>	
 					<p className='py-4 text-xl text-center max-w-lg '>
 					Enchanté je m'appelle Thibaut et j'ai récemment découvert une passion pour le développement web. 
-					J'ai donc choisi de suivre la formation FullStack JavaScript chez O'Clock. Cette formation m'a permis d'acquérir de nombreuses compétences de 
-					développeur ainsi que faire part à un projet d'équipe en utilisant les méthodes AGILE et SCRUM dans la conception web. 
+					J'ai donc choisi de suivre la formation FullStack JavaScript chez <a className='hover:text-[#07ed66]' href="https://oclock.io/" target="_blank">O'Clock</a>. Cette formation m'a permis d'acquérir de nombreuses compétences de 
+					développeur ainsi que de faire part à un projet d'équipe en utilisant les méthodes AGILE et SCRUM pour la conception web. 
 					</p>
 					<p className='py-4 text-xl text-center max-w-lg'>
 					Suite à cela j'ai pu obtenir mon diplôme de Développeur FullStack Web & Mobile de niveau RNCP 5 (BAC +2).
