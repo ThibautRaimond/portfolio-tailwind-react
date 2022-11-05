@@ -1,6 +1,8 @@
 import React from "react";
 import CodeDuDev from "../assets/projects/CodeDuDev.jpg";
+
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const Work = () => {
@@ -51,24 +53,32 @@ const Work = () => {
 						</div>
 					</div>
 
-					<div></div>
 				</div>
-				<div className="flex justify-center mt-10">
-					<button>
-						<Link
-							to="/contact"
-							mooth={true}
-							duration={500}
-							className="work-bot-button text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
-						>
-							Me contacter{" "}
-							<span className="">
-								{" "}
-								<HiArrowNarrowRight className="ml-3" />{" "}
-							</span>
-						</Link>
-					</button>
-				</div>
+				<div className="flex justify-center align-center">
+				<button className="mt-10 profil-bot-button">
+					<Link
+						to="/skills"
+						mooth={true}
+						duration={500}
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+					>
+						<HiArrowNarrowLeft className="mr-3" />
+						{" "} Retour aux compétences
+					</Link>
+				</button>
+
+				<button className="mt-10 profil-bot-button ">
+					<Link
+						to="/contact"
+						mooth={true}
+						duration={500}
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+					>
+						Échangeons par mail <HiArrowNarrowRight className="ml-3" />{" "}
+					</Link>
+				</button>
+			</div>
+
 			</div>
 		</div>
 	);

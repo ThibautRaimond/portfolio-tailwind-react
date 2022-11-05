@@ -24,8 +24,8 @@
 .content-div:hover {
     background-image: linear-gradient(
     to right,
-    rgb(8, 8, 8),
-    #2d503c
+	#d4fc79,
+    #96e6a1
     )!important;
 }
 
@@ -47,12 +47,6 @@
 	}
 	
 	
-	@media screen and (max-width: 1000px){
-		.profil-bot-button,
-		.skills-bot-button,
-		.work-bot-button{
-			display: none;
-		}
 
 	@media screen and (max-width: 800px){
 		.thib{
@@ -76,5 +70,5 @@
 		}
 	}
 	
-		}
+		
 	

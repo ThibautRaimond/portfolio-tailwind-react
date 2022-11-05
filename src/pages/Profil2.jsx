@@ -2,6 +2,7 @@ import React from "react";
 import thib from "../assets/thib.png";
 import CV from "../assets/CV.pdf";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { HiArrowNarrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const About = () => {
@@ -18,8 +19,8 @@ const About = () => {
 				<div className="profil-left-container flex flex-col items-center mr-2">
 					<img src={thib} alt="Picture" className="thib" />
 					<button
-						className="bg-green-500 text-white active:bg-green-600 font-bold uppercase text-xs px-6 py-4
-						rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-15"
+						className="bg-green-500 text-white active:bg-green-600 font-bold text-xs py-4 w-48
+						rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-6 ease-linear transition-all duration-300 hover:text-lg hover:w-64"
 						type="button"
 					>
 						<a href={CV} download>
@@ -58,20 +59,30 @@ const About = () => {
 				</div>
 			</div>
 
-			<button className="mt-10 profil-bot-button">
-				<Link
-					to="/skills"
-					mooth={true}
-					duration={500}
-					className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
-				>
-					Mes compétences
-					<span className="">
-						{" "}
-						<HiArrowNarrowRight className="ml-3" />{" "}
-					</span>
-				</Link>
-			</button>
+			<div className="flex justify-center align-center">
+				<button className="mt-10 profil-bot-button">
+					<Link
+						to="/"
+						mooth={true}
+						duration={500}
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+					>
+						<HiArrowNarrowLeft className="mr-3" />
+						{" "} Retour à l'accueil
+					</Link>
+				</button>
+
+				<button className="mt-10 profil-bot-button">
+					<Link
+						to="/skills"
+						mooth={true}
+						duration={500}
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+					>
+						Mes compétences <HiArrowNarrowRight className="ml-3" />{" "}
+					</Link>
+				</button>
+			</div>
 		</div>
 	);
 };

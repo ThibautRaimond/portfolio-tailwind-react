@@ -1,10 +1,5 @@
 import React, { useState } from "react";
-import {
-	FaBars,
-	FaTimes,
-	FaGithub,
-	FaLinkedin,
-} from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineProfile } from "react-icons/ai";
 import Logo from "../assets/logo.png";
@@ -86,11 +81,46 @@ const Navbar = () => {
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/ontact" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/contact" mooth={true} duration={500}>
 						{" "}
 						Contact{" "}
 					</Link>{" "}
 				</li>
+
+				{/* -- Réseau mobile menu -- */}
+
+				<div className=" flex justify-between mt-6">
+					<li className="w-[60px] h-[60px] flex justify-between bg-[#0A66C2]  ">
+						<a
+							className="flex justify-between items-center w-full text-gray-300"
+							href="https://www.linkedin.com/in/thibaut-raimond-0a46791ab/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FaLinkedin size={30} />
+						</a>
+					</li>
+					<li className="w-[60px] h-[60px] flex justify-between bg-[#2d333b]">
+						<a
+							className="flex justify-between items-center w-full text-gray-300"
+							href="https://github.com/ThibautRaimond"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<FaGithub size={30} />
+						</a>
+					</li>
+					<li className="w-[60px] h-[60px] flex justify-between bg-[#347d39] ">
+						<a
+							className="flex justify-between items-center w-full text-gray-300"
+							href="https://cvthibautraimond.netlify.app/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<AiOutlineProfile size={30} />
+						</a>
+					</li>
+				</div>
 			</ul>
 
 			{/* ----------------------- Social icons ----------------------- */}
