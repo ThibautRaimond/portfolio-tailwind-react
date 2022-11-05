@@ -26,19 +26,19 @@ const Navbar = () => {
 			<div>
 				<ul className="hidden md:flex">
 					<Link to="/" mooth={true} duration={500}>
-						<li> Accueil </li>
+						<li className="hover:font-bold"> Accueil </li>
 					</Link>
 					<Link to="/profil" mooth={true} duration={500}>
-						<li> Profil </li>
+						<li className="hover:font-bold"> Profil </li>
 					</Link>
 					<Link to="/skills" mooth={true} duration={500}>
-						<li> Compétences </li>
+						<li className="hover:font-bold"> Compétences </li>
 					</Link>
 					<Link to="/work" mooth={true} duration={500}>
-						<li> Projets </li>
+						<li className="hover:font-bold"> Projets </li>
 					</Link>
 					<Link to="/contact" mooth={true} duration={500}>
-						<li> Contact </li>
+						<li className="hover:font-bold"> Contact </li>
 					</Link>
 				</ul>
 			</div>
