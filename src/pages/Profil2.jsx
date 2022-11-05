@@ -9,13 +9,13 @@ const About = () => {
 	return (
 		<div
 			name="profil"
-			className="w-full h-screen bg-[#0e1111] text-gray-300 flex flex-col items-center justify-center"
+			className="bg-[#0e1111] text-gray-300 flex flex-col items-center"
 		>
 			<h1 className="text-4xl font-bold inline border-b-4 mb-20 mt-10 border-[#07ed66]">
 				Profil
 			</h1>
 
-			<div className="flex items-center p-1 shadow-md shadow-[#040c16]">
+			<div className="flex items-center shadow-md shadow-[#040c16]">
 				<div className="profil-left-container flex flex-col items-center mr-2">
 					<img src={thib} alt="Picture" className="thib" />
 					<button
@@ -86,5 +86,4 @@ const About = () => {
 		</div>
 	);
 };
-
 export default About;

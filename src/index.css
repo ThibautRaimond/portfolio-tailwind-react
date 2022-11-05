@@ -45,8 +45,6 @@
 		border-radius: 100%;
 		overflow: hidden;
 	}
-	
-	
 
 	@media screen and (max-width: 800px){
 		.thib{
@@ -63,10 +61,7 @@
 
 	@media screen and (max-width: 650px){
 		.profil-left-container{
-		display: none;;
-		}
-		.profil-textSection{
-			margin-bottom: 6em ;
+		display: none;
 		}
 	}
 	
