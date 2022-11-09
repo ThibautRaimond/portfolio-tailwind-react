@@ -70,7 +70,7 @@ const Skills = () => {
 				<div className="flex justify-center">
 				<button className="mt-10 profil-bot-button">
 					<Link
-						to="/profil"
+						to="/portfolio-tailwind-react/profil"
 						mooth={true}
 						duration={500}
 						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
@@ -82,7 +82,7 @@ const Skills = () => {
 
 				<button className="mt-10 profil-bot-button">
 					<Link
-						to="/work"
+						to="/portfolio-tailwind-react/work"
 						mooth={true}
 						duration={500}
 						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"

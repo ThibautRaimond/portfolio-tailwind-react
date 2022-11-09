@@ -12,7 +12,7 @@ const Navbar = () => {
 	return (
 		<div className="w-full h-[80px] flex justify-between items-center px-4 bg-[#0e1111cb] text-gray-300 shadow-md shadow-[#040c16]">
 			<div>
-				<Link to="/">
+				<Link to="/portfolio-tailwind-react">
 					<img
 						src={Logo}
 						className="cursor-pointer"
@@ -25,19 +25,19 @@ const Navbar = () => {
 			{/* menu */}
 			<div>
 				<ul className="hidden md:flex">
-					<Link to="/" mooth={true} duration={500}>
+					<Link to="/portfolio-tailwind-react" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Accueil </li>
 					</Link>
-					<Link to="/profil" mooth={true} duration={500}>
+					<Link to="/portfolio-tailwind-react/profil" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Profil </li>
 					</Link>
-					<Link to="/skills" mooth={true} duration={500}>
+					<Link to="/portfolio-tailwind-react/skills" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Compétences </li>
 					</Link>
-					<Link to="/work" mooth={true} duration={500}>
+					<Link to="/portfolio-tailwind-react/work" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Projets </li>
 					</Link>
-					<Link to="/contact" mooth={true} duration={500}>
+					<Link to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Contact </li>
 					</Link>
 				</ul>
@@ -57,31 +57,31 @@ const Navbar = () => {
 				}
 			>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/portfolio-tailwind-react" mooth={true} duration={500}>
 						{" "}
 						Accueil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/profil" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/portfolio-tailwind-react/profil" mooth={true} duration={500}>
 						{" "}
 						Profil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/skills" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/portfolio-tailwind-react/skills" mooth={true} duration={500}>
 						{" "}
 						Compétences{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/work" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/portfolio-tailwind-react/work" mooth={true} duration={500}>
 						{" "}
 						Projets{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/contact" mooth={true} duration={500}>
+					<Link onClick={handleClick} to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
 						{" "}
 						Contact{" "}
 					</Link>{" "}

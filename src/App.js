@@ -13,11 +13,11 @@ function App() {
 		<Layout>
 			<ResetScroll />
 			<Routes>
-				<Route path="/" element={<Home />} />
-				<Route path='/profil' element={<Profil2/>} />
-				<Route path="/skills" element={<Skills />} />
-				<Route path="/work" element={<Work />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/portfolio-tailwind-react" element={<Home />} />
+				<Route path='/portfolio-tailwind-react/profil' element={<Profil2/>} />
+				<Route path="/portfolio-tailwind-react/skills" element={<Skills />} />
+				<Route path="/portfolio-tailwind-react/work" element={<Work />} />
+				<Route path="/portfolio-tailwind-react/contact" element={<Contact />} />
 			</Routes>
 		</Layout>
 	);

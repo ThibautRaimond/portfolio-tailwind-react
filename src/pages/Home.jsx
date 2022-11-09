@@ -17,7 +17,7 @@ const Home = () => {
 				<div>
 					<button>
 						<Link
-							to="/profil"
+							to="/portfolio-tailwind-react/profil"
 							mooth={true}
 							duration={500}
 							className="text-white group flex items-center hover:text-black hover:bg-[#07ed66] hover:border-[#07ed66] hover:text-#0e1111] flex border-2 px-6 py-3 my-2"
