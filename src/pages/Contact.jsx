@@ -16,7 +16,7 @@ const Contact = () => {
 						Me contacter
 					</p>
 					<p className="text-gray-300 py-4">
-						Afin de me contacter remplissez le formulaire ci-dessous ou envoyez
+						Afin de me contacter, remplissez le formulaire ci-dessous ou envoyez
 						moi directement un e-mail à l'adresse suivante:
 						raimond.thibaut@gmail.com
 					</p>
