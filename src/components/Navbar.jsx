@@ -158,7 +158,7 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ea4335]">
-						<Link to="contact" mooth={true} duration={500}>
+						<Link to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
 							{" "}
 							Email{" "}
 						</Link>{" "}
