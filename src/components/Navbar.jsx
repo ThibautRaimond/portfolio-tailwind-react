@@ -11,14 +11,14 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="w-full h-[80px] flex justify-between items-center mb-4 px-4 bg-[#0e1111cb] text-gray-300 shadow-md shadow-[#040c16]">
+		<div className="w-full h-[85px] flex justify-between items-center mb-4 px-4 bg-[#0e1111cb] text-gray-300 shadow-md shadow-[#040c16]">
 			<div>
 				<Link to="/portfolio-tailwind-react">
 					<img
 						src={Logo}
 						className="cursor-pointer"
 						alt="Logo Image"
-						style={{ width: "50px" }}
+						style={{ width: "65px" }}
 					/>
 				</Link>
 			</div>

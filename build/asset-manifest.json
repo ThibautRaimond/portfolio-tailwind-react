@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio-tailwind-react/static/css/main.1f67332d.css",
-    "main.js": "/portfolio-tailwind-react/static/js/main.94ba6847.js",
+    "main.css": "/portfolio-tailwind-react/static/css/main.d5726f96.css",
+    "main.js": "/portfolio-tailwind-react/static/js/main.172330d9.js",
     "static/media/CV.pdf": "/portfolio-tailwind-react/static/media/CV.df25c610e378946bb12c.pdf",
     "static/media/thib.png": "/portfolio-tailwind-react/static/media/thib.4fa78691c46cf9164d58.png",
     "static/media/CodeDuDev.jpg": "/portfolio-tailwind-react/static/media/CodeDuDev.a11fd53b7b07de435994.jpg",
+    "static/media/logo.png": "/portfolio-tailwind-react/static/media/logo.54834559af14d9e5b087.png",
     "static/media/react.png": "/portfolio-tailwind-react/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/logo.png": "/portfolio-tailwind-react/static/media/logo.b4b0a4bb4f06191829dd.png",
     "static/media/node.png": "/portfolio-tailwind-react/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/psql.png": "/portfolio-tailwind-react/static/media/psql.fb6daab42b2587df2f49.png",
     "static/media/sequelize.png": "/portfolio-tailwind-react/static/media/sequelize.e7adaa25f39264c50149.png",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/portfolio-tailwind-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio-tailwind-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-tailwind-react/index.html",
-    "main.1f67332d.css.map": "/portfolio-tailwind-react/static/css/main.1f67332d.css.map",
-    "main.94ba6847.js.map": "/portfolio-tailwind-react/static/js/main.94ba6847.js.map"
+    "main.d5726f96.css.map": "/portfolio-tailwind-react/static/css/main.d5726f96.css.map",
+    "main.172330d9.js.map": "/portfolio-tailwind-react/static/js/main.172330d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f67332d.css",
-    "static/js/main.94ba6847.js"
+    "static/css/main.d5726f96.css",
+    "static/js/main.172330d9.js"
   ]
 }

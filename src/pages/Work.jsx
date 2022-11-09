@@ -40,15 +40,6 @@ const Work = () => {
 										URL
 									</button>
 								</a>
-								<a
-									href="https://github.com/O-clock-Atome/projet-4-le-code-du-dev.git"
-									target="_blank"
-									rel="noreferrer"
-								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 ">
-										Code
-									</button>
-								</a>
 							</div>
 						</div>
 					</div>
