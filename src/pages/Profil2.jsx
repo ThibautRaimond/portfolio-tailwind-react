@@ -1,6 +1,7 @@
 import React from "react";
 import thib from "../assets/thib.png";
 import CV from "../assets/CV.pdf";
+
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiArrowNarrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";

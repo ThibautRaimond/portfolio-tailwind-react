@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import Logo from "../assets/logo.png";
+
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineProfile } from "react-icons/ai";
-import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
