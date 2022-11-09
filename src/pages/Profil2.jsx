@@ -44,7 +44,7 @@ const About = () => {
 							O'Clock
 						</a>
 						. Cette formation m'a permis d'acquérir de nombreuses compétences de
-						développeur ainsi que de faire part à un projet d'équipe en
+						développeur ainsi que de prendre part à un projet d'équipe en
 						utilisant les méthodes AGILE et SCRUM pour la conception web.
 					</p>
 					<p className="py-4 text-xl text-center max-w-lg">
