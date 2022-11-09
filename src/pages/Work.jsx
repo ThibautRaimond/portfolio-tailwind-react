@@ -27,16 +27,20 @@ const Work = () => {
 					>
 						{/* hover effect */}
 						<div className="text-center opacity-0 group-hover:opacity-100">
-							<span className="text-2xl font-bold text-white tracking-wider">
-								HTML/CSS/JS/SQL Application
-							</span>
+							<p className="text-2xl font-bold text-white tracking-wider">
+								Le code du dev'
+							</p>
+								<span className="mt-10">
+								HTML/CSS/JS/SQL
+								</span>
+								<p className="m-1 text-[#132513]">Projet de groupe</p>
 							<div className="pt-8 text-center">
 								<a
 									href="https://yannou.philoucorp.fr/"
 									target="_blank"
 									rel="noreferrer"
 								>
-									<button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 ">
+									<button className="text-center rounded-lg px-8 py-3 bg-[#23232785] text-white ">
 										URL
 									</button>
 								</a>
