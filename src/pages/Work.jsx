@@ -4,12 +4,17 @@ import CodeDuDev from "../assets/projects/CodeDuDev.jpg";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiArrowNarrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Work = () => {
 	return (
-		<div
+		<motion.div
 			name="work"
 			className="w-full md:h-screen flex  text-gray-300 bg-[#0e1111]"
+			initial={{ opacity: 0, x: 100 }}
+			animate={{ opacity: 1, x: 0 }}
+			exit={{ opacity: 0, x:-10 }}
+			transition={{ type: "spring", stiffness: 50 }}
 		>
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8 flex flex-col items-center ">
@@ -75,7 +80,7 @@ const Work = () => {
 			</div>
 
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 

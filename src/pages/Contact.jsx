@@ -1,10 +1,16 @@
 import React from "react";
 
+import { motion } from "framer-motion";
+
 const Contact = () => {
 	return (
-		<div
+		<motion.div
 			name="contact"
 			className="bg-[#0e1111] flex justify-center items-center p-4"
+			initial={{ opacity: 0, x: 100 }}
+			animate={{ opacity: 1, x: 0 }}
+			exit={{ opacity: 0, x:-10 }}
+			transition={{ type: "spring", stiffness: 50 }}
 		>
 			<form
 				method="POST"
@@ -49,7 +55,7 @@ const Contact = () => {
 					</button>
 				</div>
 			</form>
-		</div>
+		</motion.div>
 	);
 };
 

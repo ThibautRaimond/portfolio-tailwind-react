@@ -6,12 +6,17 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiArrowNarrowLeft } from "react-icons/hi";
 import { MdDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const About = () => {
 	return (
-		<div
+		<motion.div
 			name="profil"
 			className="bg-[#0e1111] text-gray-300 flex flex-col items-center"
+			initial={{ opacity: 0, x: 100 }}
+			animate={{ opacity: 1, x: 0 }}
+			exit={{ opacity: 0, x:-10 }}
+			transition={{ type: "spring", stiffness: 50 }}
 		>
 			<h1 className="text-4xl font-bold inline border-b-4 mb-20 mt-10 border-[#07ed66]">
 				Profil
@@ -22,7 +27,7 @@ const About = () => {
 					<img src={thib} alt="Picture" className="thib" />
 					<button
 						className="bg-green-600 opacity-90 text-white active:bg-green-400 font-bold text-xs py-4 w-48
-						rounded outline-none mr-1 mt-6 ease-linear transition-all duration-300 hover:opacity-100 shadow hover:shadow-md hover:shadow-green-300 "
+						rounded outline-none mr-1 mt-6 ease-linear transition-all duration-300 hover:opacity-100 shadow hover:shadow-md hover:shadow-[#179244bb] "
 						type="button"
 					>
 						<a
@@ -107,7 +112,7 @@ const About = () => {
 					</Link>
 				</button>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 export default About;

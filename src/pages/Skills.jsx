@@ -11,10 +11,16 @@ import GitHub from "../assets/github.png";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiArrowNarrowLeft } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Skills = () => {
 	return (
-		<div name="skills" className="bg-[#0e1111] text-gray-300 ">
+		<motion.div name="skills" className="bg-[#0e1111] text-gray-300 "
+		initial={{ opacity: 0, x: 100 }}
+		animate={{ opacity: 1, x: 0 }}
+		exit={{ opacity: 0, x:-10 }}
+		transition={{ type: "spring", stiffness: 50 }}
+		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div>
@@ -91,7 +97,7 @@ const Skills = () => {
 				</button>
 			</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 

@@ -2,10 +2,16 @@ import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Home = () => {
 	return (
-		<div name="home" className="w-full h-screen bg-[#0e1111]">
+		<motion.div name="home" className="w-full h-screen bg-[#0e1111]"
+		initial={{ opacity: 0, x: 100 }}
+		animate={{ opacity: 1, x: 0 }}
+		exit={{ opacity: 0, x:-10 }}
+		transition={{ type: "spring", stiffness: 50 }}
+		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
 				<p className="text-3xl text-[#07ed66]">Bonjour je suis</p>
@@ -28,7 +34,7 @@ const Home = () => {
 					</button>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
