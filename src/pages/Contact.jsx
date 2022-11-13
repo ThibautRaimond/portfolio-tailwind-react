@@ -7,10 +7,10 @@ const Contact = () => {
 		<motion.div
 			name="contact"
 			className="bg-[#0e1111] flex justify-center items-center p-4"
-			initial={{ opacity: 0, x: 100 }}
-			animate={{ opacity: 1, x: 0 }}
-			exit={{ opacity: 0, x:-10 }}
-			transition={{ type: "spring", stiffness: 50 }}
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			<form
 				method="POST"
@@ -45,7 +45,7 @@ const Contact = () => {
 					rows="10"
 					placeholder="Message"
 				></textarea>
-				<div className="flex justify-center" >
+				<div className="flex justify-center">
 					<button
 						className="bg-green-500 text-white active:bg-green-600 font-bold text-xs py-4 w-64
 					rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-300 hover:text-lg hover:w-80"

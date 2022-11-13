@@ -6,11 +6,13 @@ import { motion } from "framer-motion";
 
 const Home = () => {
 	return (
-		<motion.div name="home" className="w-full h-screen bg-[#0e1111]"
-		initial={{ opacity: 0, x: 100 }}
-		animate={{ opacity: 1, x: 0 }}
-		exit={{ opacity: 0, x:-10 }}
-		transition={{ type: "spring", stiffness: 50 }}
+		<motion.div
+			name="home"
+			className="w-full h-screen bg-[#0e1111]"
+			initial={{ scaleY: 0 }}
+			animate={{ scaleY: 1 }}
+			exit={{ scaleY: 0 }}
+			transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">

@@ -11,10 +11,10 @@ const Work = () => {
 		<motion.div
 			name="work"
 			className="w-full md:h-screen flex  text-gray-300 bg-[#0e1111]"
-			initial={{ opacity: 0, x: 100 }}
-			animate={{ opacity: 1, x: 0 }}
-			exit={{ opacity: 0, x:-10 }}
-			transition={{ type: "spring", stiffness: 50 }}
+			initial={{ opacity: 0 }}
+			animate={{ opacity: 1 }}
+			exit={{ opacity: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8 flex flex-col items-center ">
@@ -35,10 +35,8 @@ const Work = () => {
 							<p className="text-2xl font-bold text-white tracking-wider">
 								Le code du dev'
 							</p>
-								<span className="mt-10">
-								HTML/CSS/JS/SQL
-								</span>
-								<p className="m-1 text-[#132513]">Projet de groupe</p>
+							<span className="mt-10">HTML/CSS/JS/SQL</span>
+							<p className="m-1 text-[#132513]">Projet de groupe</p>
 							<div className="pt-8 text-center">
 								<a
 									href="https://yannou.philoucorp.fr/"
@@ -52,33 +50,30 @@ const Work = () => {
 							</div>
 						</div>
 					</div>
-
 				</div>
 				<div className="flex justify-center align-center">
-				<button className="mt-10 profil-bot-button">
-					<Link
-						to="/portfolio-tailwind-react/skills"
-						mooth={true}
-						duration={500}
-						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
-					>
-						<HiArrowNarrowLeft className="mr-3" />
-						{" "} Retour aux compétences
-					</Link>
-				</button>
+					<button className="mt-10 profil-bot-button">
+						<Link
+							to="/portfolio-tailwind-react/skills"
+							mooth={true}
+							duration={500}
+							className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+						>
+							<HiArrowNarrowLeft className="mr-3" /> Retour aux compétences
+						</Link>
+					</button>
 
-				<button className="mt-10 profil-bot-button ">
-					<Link
-						to="/portfolio-tailwind-react/contact"
-						mooth={true}
-						duration={500}
-						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
-					>
-						Échangeons par mail <HiArrowNarrowRight className="ml-3" />{" "}
-					</Link>
-				</button>
-			</div>
-
+					<button className="mt-10 profil-bot-button ">
+						<Link
+							to="/portfolio-tailwind-react/contact"
+							mooth={true}
+							duration={500}
+							className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+						>
+							Échangeons par mail <HiArrowNarrowRight className="ml-3" />{" "}
+						</Link>
+					</button>
+				</div>
 			</div>
 		</motion.div>
 	);
