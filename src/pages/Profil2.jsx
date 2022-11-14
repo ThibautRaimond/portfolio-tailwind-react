@@ -18,13 +18,13 @@ const About = () => {
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
-			<div className="bg-[#0e1111] text-gray-300 items-center p-4 flex flex-col justify-center">
+			<div className="bg-[#0e1111] text-gray-300 items-center flex flex-col justify-center">
 
 			<h1 className="text-4xl font-bold inline border-b-4 mb-10 border-[#07ed66]">
 				Profil
 			</h1>
 
-			<div className="flex items-center shadow-md shadow-[#040c16]">
+			<div className="flex items-center shadow-md shadow-[#040c16] pt-4 px-2">
 				<div className="profil-left-container flex flex-col items-center mr-2">
 					<img src={thib} alt="Picture" className="thib" />
 					<button
