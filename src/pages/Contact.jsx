@@ -7,14 +7,15 @@ const Contact = () => {
 		<motion.div
 			name="contact"
 			className="bg-[#0e1111] flex justify-center items-center p-4"
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			exit={{ opacity: 0 }}
-			transition={{ duration: 0.5 }}
+			initial={{ scaleY: 0 }}
+			animate={{ scaleY: 1 }}
+			exit={{ scaleY: 0 }}
+			transition={{ duration: 0.75 }}
 		>
 			<form
 				method="POST"
-				action="https://getform.io/f/7169b0b6-03d1-4a1f-befd-83105a82ffd2"
+				action="https://getform.io/f/b647f9b9-5752-4f82-a5c5-7e42ed277826"
+				target="_blank"
 				className="flex flex-col max-w-[600px] w-full"
 			>
 				<div className="pb-8">
@@ -49,7 +50,7 @@ const Contact = () => {
 					<button
 						className="bg-green-500 text-white active:bg-green-600 font-bold text-xs py-4 w-64
 					rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-300 hover:text-lg hover:w-80"
-						type="button"
+						type="submit"
 					>
 						Collaborons ensemble
 					</button>

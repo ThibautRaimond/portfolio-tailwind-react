@@ -29,16 +29,28 @@ const Navbar = () => {
 					<Link to="/portfolio-tailwind-react" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Accueil </li>
 					</Link>
-					<Link to="/portfolio-tailwind-react/profil" mooth={true} duration={500}>
+					<Link
+						to="/portfolio-tailwind-react/profil"
+						mooth={true}
+						duration={500}
+					>
 						<li className="hover:font-bold"> Profil </li>
 					</Link>
-					<Link to="/portfolio-tailwind-react/skills" mooth={true} duration={500}>
+					<Link
+						to="/portfolio-tailwind-react/skills"
+						mooth={true}
+						duration={500}
+					>
 						<li className="hover:font-bold"> Compétences </li>
 					</Link>
 					<Link to="/portfolio-tailwind-react/work" mooth={true} duration={500}>
 						<li className="hover:font-bold"> Projets </li>
 					</Link>
-					<Link to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
+					<Link
+						to="/portfolio-tailwind-react/contact"
+						mooth={true}
+						duration={500}
+					>
 						<li className="hover:font-bold"> Contact </li>
 					</Link>
 				</ul>
@@ -58,31 +70,56 @@ const Navbar = () => {
 				}
 			>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/portfolio-tailwind-react" mooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="/portfolio-tailwind-react"
+						mooth={true}
+						duration={500}
+					>
 						{" "}
 						Accueil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/portfolio-tailwind-react/profil" mooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="/portfolio-tailwind-react/profil"
+						mooth={true}
+						duration={500}
+					>
 						{" "}
 						Profil{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/portfolio-tailwind-react/skills" mooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="/portfolio-tailwind-react/skills"
+						mooth={true}
+						duration={500}
+					>
 						{" "}
 						Compétences{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/portfolio-tailwind-react/work" mooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="/portfolio-tailwind-react/work"
+						mooth={true}
+						duration={500}
+					>
 						{" "}
 						Projets{" "}
 					</Link>{" "}
 				</li>
 				<li className="py-6 text-4xl">
-					<Link onClick={handleClick} to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
+					<Link
+						onClick={handleClick}
+						to="/portfolio-tailwind-react/contact"
+						mooth={true}
+						duration={500}
+					>
 						{" "}
 						Contact{" "}
 					</Link>{" "}
@@ -127,13 +164,12 @@ const Navbar = () => {
 			{/* ----------------------- Social icons ----------------------- */}
 			<div className="hidden lg:flex fixed flex-col top-[35%] left-0">
 				<ul>
-					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2] ">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="https://www.linkedin.com/in/thibaut-raimond-0a46791ab/"
-							target="_blank"
-							rel="noreferrer"
-						>
+					<li
+						className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0A66C2] "
+					>
+						<a className="flex justify-between items-center w-full text-gray-300" href="https://www.linkedin.com/in/thibaut-raimond-0a46791ab/"
+						target="_blank"
+						rel="noreferrer">
 							Linkedin <FaLinkedin size={30} />
 						</a>
 					</li>
@@ -158,7 +194,11 @@ const Navbar = () => {
 						</a>
 					</li>
 					<li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ea4335]">
-						<Link to="/portfolio-tailwind-react/contact" mooth={true} duration={500}>
+						<Link
+							to="/portfolio-tailwind-react/contact"
+							mooth={true}
+							duration={500}
+						>
 							{" "}
 							Email{" "}
 						</Link>{" "}

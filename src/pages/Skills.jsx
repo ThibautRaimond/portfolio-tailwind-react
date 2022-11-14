@@ -18,10 +18,10 @@ const Skills = () => {
 		<motion.div
 			name="skills"
 			className="bg-[#0e1111] text-gray-300 "
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			exit={{ opacity: 0 }}
-			transition={{ duration: 0.5 }}
+			// initial={{ scaleY: 0 }}
+			// animate={{ scaleY: 1 }}
+			// exit={{ scaleY: 0 }}
+			// transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">

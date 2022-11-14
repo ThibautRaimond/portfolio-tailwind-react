@@ -11,10 +11,10 @@ const Work = () => {
 		<motion.div
 			name="work"
 			className="w-full md:h-screen flex  text-gray-300 bg-[#0e1111]"
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			exit={{ opacity: 0 }}
-			transition={{ duration: 0.5 }}
+			// initial={{ opacity: 0 }}
+			// animate={{ opacity: 1 }}
+			// exit={{ opacity: 0 }}
+			// transition={{ duration: 0.5 }}
 		>
 			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8 flex flex-col items-center ">
