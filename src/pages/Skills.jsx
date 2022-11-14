@@ -17,16 +17,16 @@ const Skills = () => {
 	return (
 		<motion.div
 			name="skills"
-			className="w-full h-screen bg-[#0e1111]  text-gray-300"
+			className="w-full h-screen bg-[#0e1111] text-gray-300 main"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+			<div className="max-w-[1000px] mx-auto flex flex-col">
 				<div>
-					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66] competences">
+					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66]">
 						Compétences
 					</p>
 					<p className="py-4">Voici les technologies que j'ai déjà utlisées</p>

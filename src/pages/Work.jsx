@@ -10,13 +10,13 @@ const Work = () => {
 	return (
 		<motion.div
 			name="work"
-			className="w-full h-screen bg-[#0e1111]  text-gray-300"
+			className="w-full bg-[#0e1111] text-gray-300 main flex justify-center items-center h-screen "
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
-			<div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+			<div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8 flex flex-col items-center ">
 					<p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#07ed66] mt-6">
 						Mes projets

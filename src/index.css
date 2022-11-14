@@ -70,3 +70,10 @@
 					display: none;
 				}
 		}
+
+
+		@media screen and (max-height: 900px){
+			.main{
+				height: auto;
+			}
+		}

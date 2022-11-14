@@ -12,13 +12,15 @@ const About = () => {
 	return (
 		<motion.div
 			name="profil"
-			className="bg-[#0e1111] text-gray-300 flex flex-col items-center"
+			className="main bg-[#0e1111] flex justify-center items-center h-screen w-full text-gray-300"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
-			<h1 className="text-4xl font-bold inline border-b-4 mb-20 mt-10 border-[#07ed66]">
+			<div className="bg-[#0e1111] text-gray-300 items-center p-4 flex flex-col justify-center">
+
+			<h1 className="text-4xl font-bold inline border-b-4 mb-10 border-[#07ed66]">
 				Profil
 			</h1>
 
@@ -29,12 +31,12 @@ const About = () => {
 						className="bg-green-600 opacity-90 text-white active:bg-green-400 font-bold text-xs py-4 w-48
 						rounded outline-none mr-1 mt-6 ease-linear transition-all duration-300 hover:opacity-100 shadow hover:shadow-md hover:shadow-[#179244bb] "
 						type="button"
-					>
+						>
 						<a
 							href={CV}
 							download
 							className="flex justify-center align-center leading-0 text-sm"
-						>
+							>
 							Télécharger mon CV <MdDownload className="w-[20px] h-[20px]" />
 						</a>
 					</button>
@@ -50,7 +52,7 @@ const About = () => {
 							href="https://oclock.io/"
 							target="_blank"
 							rel="noreferrer"
-						>
+							>
 							O'Clock
 						</a>
 						. Cette formation m'a permis d'acquérir de nombreuses compétences de
@@ -73,16 +75,16 @@ const About = () => {
 			{/* ------------- MOBILE BUTTON  --------------- */}
 			<button
 				className="profil-mobile-button bg-green-500 text-white active:bg-green-600 font-bold text-xs py-4 w-48
-						rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-6 ease-linear"
+				rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-6 ease-linear"
 				type="button"
 				href={CV}
 				download
-			>
+				>
 				<a
 					href={CV}
 					download
 					className="flex justify-center align-center leading-0 text-sm"
-				>
+					>
 					Télécharger mon CV <MdDownload className="w-[20px] h-[20px]" />
 				</a>
 			</button>
@@ -107,11 +109,12 @@ const About = () => {
 						mooth={true}
 						duration={500}
 						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
-					>
+						>
 						Mes compétences <HiArrowNarrowRight className="ml-3" />{" "}
 					</Link>
 				</button>
 			</div>
+						</div>
 		</motion.div>
 	);
 };
