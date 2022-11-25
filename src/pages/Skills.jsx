@@ -25,7 +25,7 @@ const Skills = () => {
 		>
 			{/* Container */}
 			<div className="max-w-[1000px] mx-auto flex flex-col skills">
-				<div>
+				<div className="text-center">
 					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66]">
 						Compétences
 					</p>
