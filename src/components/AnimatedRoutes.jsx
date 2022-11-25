@@ -8,6 +8,7 @@ import Work from "../pages/Work";
 import Profil2 from "../pages/Profil2";
 
 import { AnimatePresence } from "framer-motion";
+import NavigationMobile from "../pages/NavigationMobile";
 
 const AnimatedRoutes = () => {
 	const location = useLocation();
@@ -19,6 +20,7 @@ const AnimatedRoutes = () => {
 				<Route path="/portfolio-tailwind-react/skills" element={<Skills />} />
 				<Route path="/portfolio-tailwind-react/work" element={<Work />} />
 				<Route path="/portfolio-tailwind-react/contact" element={<Contact />} />
+				<Route path="/portfolio-tailwind-react/menu" element={<NavigationMobile/>} />
 			</Routes>
 		</AnimatePresence>
 	);

@@ -57,108 +57,19 @@ const Navbar = () => {
 
 			{/* {Hamburger} */}
 			<div onClick={handleClick} className="md:hidden z-10">
-				{!nav ? <FaBars /> : <FaTimes />}
+			<Link
+							to="/portfolio-tailwind-react/menu"
+							mooth={true}
+							duration={500}
+							className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+						>
+				{/* {!nav ? <FaBars /> : <FaTimes />} */}
+				< FaBars />
+						</Link>
 			</div>
 
 			{/* mobile menu */}
-			<ul
-				className={
-					!nav
-						? "hidden"
-						: "absolute top-0 left-0 w-full h-screen bg-[#0e1111] flex flex-col justify-center items-center"
-				}
-			>
-				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="/portfolio-tailwind-react"
-						mooth={true}
-						duration={500}
-					>
-						{" "}
-						Accueil{" "}
-					</Link>{" "}
-				</li>
-				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="/portfolio-tailwind-react/profil"
-						mooth={true}
-						duration={500}
-					>
-						{" "}
-						Profil{" "}
-					</Link>{" "}
-				</li>
-				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="/portfolio-tailwind-react/skills"
-						mooth={true}
-						duration={500}
-					>
-						{" "}
-						Compétences{" "}
-					</Link>{" "}
-				</li>
-				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="/portfolio-tailwind-react/work"
-						mooth={true}
-						duration={500}
-					>
-						{" "}
-						Projets{" "}
-					</Link>{" "}
-				</li>
-				<li className="py-6 text-4xl">
-					<Link
-						onClick={handleClick}
-						to="/portfolio-tailwind-react/contact"
-						mooth={true}
-						duration={500}
-					>
-						{" "}
-						Contact{" "}
-					</Link>{" "}
-				</li>
 
-				{/* -- Réseau mobile menu -- */}
-
-				<div className=" flex justify-between mt-6">
-					<li className="w-[60px] h-[60px] flex justify-between bg-[#0A66C2]  ">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="https://www.linkedin.com/in/thibaut-raimond-0a46791ab/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<FaLinkedin size={30} />
-						</a>
-					</li>
-					<li className="w-[60px] h-[60px] flex justify-between bg-[#2d333b]">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="https://github.com/ThibautRaimond"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<FaGithub size={30} />
-						</a>
-					</li>
-					<li className="w-[60px] h-[60px] flex justify-between bg-[#347d39] ">
-						<a
-							className="flex justify-between items-center w-full text-gray-300"
-							href="https://cvthibautraimond.netlify.app/"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<AiOutlineProfile size={30} />
-						</a>
-					</li>
-				</div>
-			</ul>
 		</div>
 	);
 };
