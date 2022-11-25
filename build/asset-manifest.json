@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-tailwind-react/static/css/main.ff32a540.css",
-    "main.js": "/portfolio-tailwind-react/static/js/main.aa8a7bbe.js",
-    "static/media/CV.pdf": "/portfolio-tailwind-react/static/media/CV.df25c610e378946bb12c.pdf",
+    "main.css": "/portfolio-tailwind-react/static/css/main.b15167c1.css",
+    "main.js": "/portfolio-tailwind-react/static/js/main.69e6c5a7.js",
+    "static/media/CV.pdf": "/portfolio-tailwind-react/static/media/CV.d2c796fae20b366caea3.pdf",
     "static/media/thib.png": "/portfolio-tailwind-react/static/media/thib.4fa78691c46cf9164d58.png",
     "static/media/CodeDuDev.jpg": "/portfolio-tailwind-react/static/media/CodeDuDev.a11fd53b7b07de435994.jpg",
     "static/media/logo.png": "/portfolio-tailwind-react/static/media/logo.54834559af14d9e5b087.png",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/portfolio-tailwind-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio-tailwind-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-tailwind-react/index.html",
-    "main.ff32a540.css.map": "/portfolio-tailwind-react/static/css/main.ff32a540.css.map",
-    "main.aa8a7bbe.js.map": "/portfolio-tailwind-react/static/js/main.aa8a7bbe.js.map"
+    "main.b15167c1.css.map": "/portfolio-tailwind-react/static/css/main.b15167c1.css.map",
+    "main.69e6c5a7.js.map": "/portfolio-tailwind-react/static/js/main.69e6c5a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff32a540.css",
-    "static/js/main.aa8a7bbe.js"
+    "static/css/main.b15167c1.css",
+    "static/js/main.69e6c5a7.js"
   ]
 }
