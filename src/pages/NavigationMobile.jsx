@@ -10,7 +10,7 @@ const NavigationMobile = () => {
 	return (
 		<div>
 			<ul
-				className={"w-full h-screen bg-gradient-to-r from[#0e1111] to-transparentbg flex flex-col justify-center items-center text-white"
+				className={"bg-gradient-to-r from[#0e1111] to-transparentbg flex flex-col justify-center items-center text-white pt-4"
 				}
 			>
 				<li className="py-6 text-4xl">
