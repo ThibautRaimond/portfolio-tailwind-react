@@ -10,7 +10,7 @@ const Navbar = () => {
 	const handleClick = () => setNav(!nav);
 
 	return (
-		<div className="w-full h-[85px] flex justify-between items-center mb-4 pr-4 pl-3 bg-[#0e1111d3] text-gray-300 shadow-md shadow-[#040c16]">
+		<div className="w-full h-[85px] flex justify-between items-center pr-4 pl-3 bg-[#0e1111d3] text-gray-300 shadow-md shadow-[#040c16]">
 			<div className="h-[70px] w-[70px] p-[5px] rounded-md flex justify-center hover:shadow-md hover:shadow-[#040c16]">
 				<Link to="/portfolio-tailwind-react">
 					<img
@@ -55,7 +55,7 @@ const Navbar = () => {
 				</ul>
 			</div>
 
-			{/* {Hamburger} */}
+			{/* { Bouton Mobile mode} */}
 			<div onClick={handleClick} className="md:hidden z-10">
 			<Link
 							to="/portfolio-tailwind-react/menu"
@@ -67,8 +67,6 @@ const Navbar = () => {
 				< FaBars />
 						</Link>
 			</div>
-
-			{/* mobile menu */}
 
 		</div>
 	);

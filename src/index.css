@@ -76,9 +76,3 @@
 				padding-top: 8em;
 			}
 	}
-
-		@media screen and (max-height: 900px){
-			.main{
-				height: auto;
-			}
-		}

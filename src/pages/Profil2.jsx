@@ -12,7 +12,7 @@ const About = () => {
 	return (
 		<motion.div
 			name="profil"
-			className="main bg-[#0e1111] flex justify-center items-center h-screen w-full text-gray-300"
+			className="main bg-gradient-to-r from[#0e1111] to-transparentbg flex justify-center items-center h-screen w-full text-gray-300"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}

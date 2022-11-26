@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<motion.div
 			name="contact"
-			className="main bg-[#0e1111] flex justify-center items-center h-screen"
+			className="h-screen bg-gradient-to-r from[#0e1111] to-transparentbg flex justify-center pt-4 sm:items-center sm:pt-0"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}

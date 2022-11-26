@@ -10,7 +10,7 @@ const NavigationMobile = () => {
 	return (
 		<div>
 			<ul
-				className={"bg-[#0e1111] flex flex-col justify-center items-center text-white"
+				className={"w-full h-screen bg-gradient-to-r from[#0e1111] to-transparentbg flex flex-col justify-center items-center text-white"
 				}
 			>
 				<li className="py-6 text-4xl">
@@ -71,7 +71,7 @@ const NavigationMobile = () => {
 
 				{/* -- Réseaux -- */}
 
-				<div className=" flex justify-between mt-6">
+				<div className=" flex justify-between mt-4">
 					<li className="w-[60px] h-[60px] flex justify-between bg-[#0A66C2]  ">
 						<a
 							className="flex justify-between items-center w-full text-gray-300"

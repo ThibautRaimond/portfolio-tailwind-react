@@ -17,14 +17,14 @@ const Skills = () => {
 	return (
 		<motion.div
 			name="skills"
-			className="w-full h-screen bg-[#0e1111] text-gray-300 main"
+			className="w-full h-screen bg-gradient-to-r from[#0e1111] to-transparentbg text-gray-300"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto flex flex-col skills">
+			<div className="max-w-[1000px] mx-auto flex flex-col pt-4 sm:pt-52">
 				<div className="text-center">
 					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66]">
 						Compétences
@@ -32,7 +32,7 @@ const Skills = () => {
 					<p className="py-4">Voici les technologies que j'ai déjà utlisées</p>
 				</div>
 
-				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center mt-8">
+				<div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center mt-12">
 					<div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
 						<img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
 						<p className="my-4">HTML</p>

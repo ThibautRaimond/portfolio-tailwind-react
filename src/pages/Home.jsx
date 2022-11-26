@@ -8,14 +8,14 @@ const Home = () => {
 	return (
 		<motion.div
 			name="home"
-			className="w-full h-screen bg-[#0e1111]"
+			className="w-full h-screen bg-gradient-to-r from[#0e1111] to-transparentbg z-0 relative"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
 			transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
+			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full z-0 relative">
 				<p className="text-3xl text-[#07ed66]">Bonjour je suis</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
 					Thibaut Raimond
