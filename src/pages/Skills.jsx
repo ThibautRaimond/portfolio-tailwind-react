@@ -24,7 +24,7 @@ const Skills = () => {
 			transition={{ duration: 0.75 }}
 		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto flex flex-col pt-4 sm:pt-52">
+			<div className="max-w-[1000px] mx-auto flex flex-col pt-4 lg:pt-52">
 				<div className="text-center">
 					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66]">
 						Compétences

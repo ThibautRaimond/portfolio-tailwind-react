@@ -49,7 +49,7 @@ const Contact = () => {
 				<div className="flex justify-center">
 					<button
 						className="bg-green-500 text-white active:bg-green-600 font-bold text-xs py-4 w-64
-					rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-300 hover:text-lg hover:w-80"
+					rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mt-14 ease-linear transition-all duration-300 hover:text-lg hover:w-80 mb-2"
 						type="submit"
 					>
 						Collaborons ensemble

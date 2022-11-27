@@ -10,7 +10,7 @@ const Work = () => {
 	return (
 		<motion.div
 			name="work"
-			className="w-full bg-gradient-to-r from[#0e1111] to-transparentbg text-gray-300 main flex justify-center items-center h-screen "
+			className="w-full bg-gradient-to-r from[#0e1111] to-transparentbg text-gray-300 main flex justify-center items-center lg:pt-40"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
