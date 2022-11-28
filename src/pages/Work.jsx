@@ -28,7 +28,7 @@ const Work = () => {
 				<div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
 					<div
 						style={{ backgroundImage: `url(${CodeDuDev})` }}
-						className="shadow-lg shadow-[#0e1111] group container rounded-md flex justify-center items-center mx-auto content-div"
+						className="shadow-lg shadow-[#0e1111] group container rounded-md flex justify-center items-center mx-auto projet-div"
 					>
 						{/* hover effect */}
 						<div className="text-center opacity-0 group-hover:opacity-100">
