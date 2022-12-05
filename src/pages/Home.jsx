@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<motion.div
 			name="home"
-			className="w-full h-screen bg-gradient-to-r from[#0e1111] to-transparentbg z-0 relative"
+			className="pt-40 flex justify-center items-center lg:pt-72 bg-gradient-to-r from[#0e1111] to-transparentbg z-0 relative"
 			initial={{ scaleY: 0 }}
 			animate={{ scaleY: 1 }}
 			exit={{ scaleY: 0 }}
