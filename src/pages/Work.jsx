@@ -11,10 +11,10 @@ const Work = () => {
 		<motion.div
 			name="work"
 			className="w-full bg-gradient-to-r from[#0e1111] to-transparentbg text-gray-300 main flex justify-center items-center lg:pt-40"
-			initial={{ scaleY: 0 }}
-			animate={{ scaleY: 1 }}
-			exit={{ scaleY: 0 }}
-			transition={{ duration: 0.75 }}
+			initial={{ scaleX: 0.5 }}
+			animate={{ scaleX: 1 }}
+			exit={{ scaleX: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			<div className="max-w-[1000px] mx-auto px-4 flex flex-col justify-center w-full h-full">
 				<div className="pb-8 flex flex-col items-center ">

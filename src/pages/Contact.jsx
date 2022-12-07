@@ -7,10 +7,10 @@ const Contact = () => {
 		<motion.div
 			name="contact"
 			className="bg-gradient-to-r from[#0e1111] to-transparentbg flex justify-center pt-4 lg:pt-40"
-			initial={{ scaleY: 0 }}
-			animate={{ scaleY: 1 }}
-			exit={{ scaleY: 0 }}
-			transition={{ duration: 0.75 }}
+			initial={{ scaleX: 0.5 }}
+			animate={{ scaleX: 1 }}
+			exit={{ scaleX: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			<form
 				method="POST"

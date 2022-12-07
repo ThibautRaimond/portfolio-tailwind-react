@@ -1,6 +1,6 @@
 import React from "react";
 import thib from "../assets/thib.png";
-import CV from "../assets/CV.pdf";
+import CV from "../assets/CV-thibaut-raimond.pdf";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { HiArrowNarrowLeft } from "react-icons/hi";
@@ -13,10 +13,10 @@ const About = () => {
 		<motion.div
 			name="profil"
 			className="bg-gradient-to-r from[#0e1111] to-transparentbg pt-4 flex justify-center items-center lg:pt-40 text-gray-300"
-			initial={{ scaleY: 0 }}
-			animate={{ scaleY: 1 }}
-			exit={{ scaleY: 0 }}
-			transition={{ duration: 0.75 }}
+			initial={{ scaleX: 0.5 }}
+			animate={{ scaleX: 1 }}
+			exit={{ scaleX: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			<div className="bg-[#0e1111] text-gray-300 items-center flex flex-col justify-center">
 
