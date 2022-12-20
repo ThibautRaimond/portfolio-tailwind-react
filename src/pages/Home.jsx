@@ -1,27 +1,38 @@
 import React from "react";
-
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
+
 	return (
 		<motion.div
 			name="home"
-			className="pt-40 flex justify-center items-center lg:pt-72 bg-gradient-to-r from[#0e1111] to-transparentbg z-0 "
-			initial={{ scaleY: 0 }}
-			animate={{ scaleY: 1 }}
-			exit={{ scaleY: 0 }}
-			transition={{ duration: 0.75 }}
+			className="flex justify-center items-center bg-gradient-to-r from[#0e1111] to-transparentbg z-0 w-full h-screen"
+			initial={{ scaleX: 0.5 }}
+			animate={{ scaleX: 1 }}
+			exit={{ scaleX: 0 }}
+			transition={{ duration: 0.5 }}
 		>
 			{/* Container */}
-			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full z-0 relative">
+			<div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center w-full h-full z-0 relative">
 				<p className="text-3xl text-[#07ed66]">Bonjour je suis</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
 					Thibaut Raimond
 				</h1>
 				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4">
-					Développer web & mobile
+					<Typewriter
+					options={{
+						autoStart:true,
+						loop: true,
+						delay: 50,
+						strings:[
+							"Dev Web & Mobile",
+							"FullStack JS",
+							"AGILE TeamWork"
+						],
+					}}/>
 				</h2>
 				<div>
 					<button>
