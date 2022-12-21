@@ -10,7 +10,7 @@ const Work = () => {
 	return (
 		<motion.div
 			name="work"
-			className="bg-gradient-to-r from[#0e1111] to-transparentbg text-gray-300 main flex justify-center items-center lg:pt-40"
+			className="text-gray-300 main flex flex-col justify-center align-center w-full h-screen"
 			initial={{ scaleX: 0.5 }}
 			animate={{ scaleX: 1 }}
 			exit={{ scaleX: 0 }}
@@ -52,7 +52,7 @@ const Work = () => {
 					</div>
 				</div>
 				<div className="flex justify-center align-center">
-					<button className="mt-40 profil-bot-button">
+					<button className="mt-12 profil-bot-button">
 						<Link
 							to="/portfolio-tailwind-react/skills"
 							mooth={true}
@@ -63,7 +63,7 @@ const Work = () => {
 						</Link>
 					</button>
 
-					<button className="mt-40 profil-bot-button ">
+					<button className="mt-12 profil-bot-button ">
 						<Link
 							to="/portfolio-tailwind-react/contact"
 							mooth={true}

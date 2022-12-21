@@ -6,7 +6,7 @@ const Contact = () => {
 	return (
 		<motion.div
 			name="contact"
-			className="bg-gradient-to-r from[#0e1111] to-transparentbg flex justify-center pt-4 lg:pt-40"
+			className="flex flex-col justify-center align-center w-full h-screen"
 			initial={{ scaleX: 0.5 }}
 			animate={{ scaleX: 1 }}
 			exit={{ scaleX: 0 }}
@@ -16,7 +16,7 @@ const Contact = () => {
 				method="POST"
 				action="https://getform.io/f/b647f9b9-5752-4f82-a5c5-7e42ed277826"
 				target="_blank"
-				className="main flex flex-col max-w-[600px] w-full px-4"
+				className="main flex flex-col max-w-[600px] w-full mx-auto px-2"
 			>
 				<div className="pb-8">
 					<p className="text-4xl font-bold inline border-b-4 border-[#07ed66] text-gray-300">
