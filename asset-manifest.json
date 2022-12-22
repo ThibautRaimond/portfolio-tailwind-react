@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-tailwind-react/static/css/main.c3e881e6.css",
-    "main.js": "/portfolio-tailwind-react/static/js/main.f7de4eac.js",
+    "main.css": "/portfolio-tailwind-react/static/css/main.eed6c7b1.css",
+    "main.js": "/portfolio-tailwind-react/static/js/main.58019c3c.js",
     "static/media/CV-thibaut-raimond.pdf": "/portfolio-tailwind-react/static/media/CV-thibaut-raimond.1b6a396a61d8668b645a.pdf",
     "static/media/thib.png": "/portfolio-tailwind-react/static/media/thib.4fa78691c46cf9164d58.png",
     "static/media/CodeDuDev.jpg": "/portfolio-tailwind-react/static/media/CodeDuDev.a11fd53b7b07de435994.jpg",
@@ -15,11 +15,11 @@
     "static/media/css.png": "/portfolio-tailwind-react/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio-tailwind-react/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-tailwind-react/index.html",
-    "main.c3e881e6.css.map": "/portfolio-tailwind-react/static/css/main.c3e881e6.css.map",
-    "main.f7de4eac.js.map": "/portfolio-tailwind-react/static/js/main.f7de4eac.js.map"
+    "main.eed6c7b1.css.map": "/portfolio-tailwind-react/static/css/main.eed6c7b1.css.map",
+    "main.58019c3c.js.map": "/portfolio-tailwind-react/static/js/main.58019c3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3e881e6.css",
-    "static/js/main.f7de4eac.js"
+    "static/css/main.eed6c7b1.css",
+    "static/js/main.58019c3c.js"
   ]
 }
