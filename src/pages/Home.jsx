@@ -22,7 +22,7 @@ const Home = () => {
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] title2">
 				Thibaut Raimond
 				</h1>
-				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3">
+				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3 w-[750px]">
 					<Typewriter
 					options={{
 						autoStart:true,
@@ -47,6 +47,7 @@ const Home = () => {
 						</Link>
 					</button>
 				</div>
+				{/* cup container */}
 			</div>
 		</motion.div>
 	);

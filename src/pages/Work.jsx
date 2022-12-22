@@ -10,7 +10,7 @@ const Work = () => {
 	return (
 		<motion.div
 			name="work"
-			className="text-gray-300 main flex flex-col justify-center align-center w-full h-screen"
+			className="text-gray-300 flex flex-col justify-center align-center w-full h-screen"
 			initial={{ scaleX: 0.5 }}
 			animate={{ scaleX: 1 }}
 			exit={{ scaleX: 0 }}

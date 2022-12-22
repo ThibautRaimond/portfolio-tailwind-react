@@ -97,7 +97,7 @@ const About = () => {
 						to="/portfolio-tailwind-react"
 						mooth={true}
 						duration={500}
-						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
 					>
 						<HiArrowNarrowLeft className="mr-3" /> Retour à l'accueil
 					</Link>
@@ -108,7 +108,7 @@ const About = () => {
 						to="/portfolio-tailwind-react/skills"
 						mooth={true}
 						duration={500}
-						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 my-2 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
+						className="text-[#ffffff] text-opacity-25 group flex items-center border-2 px-6 py-3 border-[#999b99] border-opacity-25 hover:text-white hover:border-white"
 						>
 						Mes compétences <HiArrowNarrowRight className="ml-3" />{" "}
 					</Link>
