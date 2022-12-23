@@ -8,21 +8,21 @@ const Home = () => {
 	return (
 		<motion.div
 			name="home"
-			className="flex flex-col justify-center align-center w-full h-screen"
+			className="flex flex-col justify-center align-center w-screen h-screen"
 			initial={{ scaleX: 0.5 }}
 			animate={{ scaleX: 1 }}
 			exit={{ scaleX: 0 }}
 			transition={{ duration: 0.5 }}
 		>
 			{/* Container */}
-			<div className="max-w-[750px] mx-auto px-8 flex flex-col justify-center">
+			<div className="max-w-[750px] mx-auto  flex flex-col justify-center">
 				<p className="text-3xl text-[#07ed66] title">
 					Bonjours je suis
 					</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] title2">
 				Thibaut Raimond
 				</h1>
-				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3 w-[750px]">
+				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3 ">
 					<Typewriter
 					options={{
 						autoStart:true,
