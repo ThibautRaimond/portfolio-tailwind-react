@@ -15,23 +15,23 @@ const Home = () => {
 			transition={{ duration: 0.5 }}
 		>
 			{/* Container */}
-			<div className="max-w-[750px] mx-auto  flex flex-col justify-center">
+			<div className="max-w-[750px] mx-auto flex flex-col justify-center">
 				<p className="text-3xl text-[#07ed66] title">
 					Bonjours je suis
 					</p>
 				<h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6] title2">
 				Thibaut Raimond
 				</h1>
-				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3 ">
+				<h2 className="text-4xl sm:text-7xl font-bold text-[#656a79] py-4 title3">
 					<Typewriter
 					options={{
 						autoStart:true,
 						loop: true,
 						delay: 50,
 						strings:[
-							"Dev Web & Mobile",
 							"Dev full stack JS",
-							"AGILE team work"
+							"Web & Mobile",
+							"AGILE teamwork"
 						],
 					}}/>
 				</h2>
