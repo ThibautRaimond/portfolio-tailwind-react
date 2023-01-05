@@ -15,12 +15,12 @@ const AnimatedRoutes = () => {
 	return (
 		<AnimatePresence>
 			<Routes location={location.pathname} key={location.pathname}>
-				<Route path="/portfolio-tailwind-react" element={<Home />} />
-				<Route path="/portfolio-tailwind-react/profil" element={<Profil2 />} />
-				<Route path="/portfolio-tailwind-react/skills" element={<Skills />} />
-				<Route path="/portfolio-tailwind-react/work" element={<Work />} />
-				<Route path="/portfolio-tailwind-react/contact" element={<Contact />} />
-				<Route path="/portfolio-tailwind-react/menu" element={<NavigationMobile/>} />
+				<Route path="/portfolio" element={<Home />} />
+				<Route path="/portfolio/profil" element={<Profil2 />} />
+				<Route path="/portfolio/skills" element={<Skills />} />
+				<Route path="/portfolio/work" element={<Work />} />
+				<Route path="/portfolio/contact" element={<Contact />} />
+				<Route path="/portfolio/menu" element={<NavigationMobile />} />
 			</Routes>
 		</AnimatePresence>
 	);

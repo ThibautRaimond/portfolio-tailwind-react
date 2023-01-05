@@ -10,13 +10,14 @@ const NavigationMobile = () => {
 	return (
 		<div>
 			<ul
-				className={"bg-gradient-to-r from[#0e1111] to-transparentbg flex flex-col justify-center items-center text-white pt-4"
+				className={
+					"bg-gradient-to-r from[#0e1111] to-transparentbg flex flex-col justify-center items-center text-white pt-4"
 				}
 			>
 				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
-						to="/portfolio-tailwind-react"
+						to="/portfolio"
 						mooth={true}
 						duration={500}
 					>
@@ -27,7 +28,7 @@ const NavigationMobile = () => {
 				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
-						to="/portfolio-tailwind-react/profil"
+						to="/portfolio/profil"
 						mooth={true}
 						duration={500}
 					>
@@ -38,7 +39,7 @@ const NavigationMobile = () => {
 				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
-						to="/portfolio-tailwind-react/skills"
+						to="/portfolio/skills"
 						mooth={true}
 						duration={500}
 					>
@@ -49,7 +50,7 @@ const NavigationMobile = () => {
 				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
-						to="/portfolio-tailwind-react/work"
+						to="/portfolio/work"
 						mooth={true}
 						duration={500}
 					>
@@ -60,7 +61,7 @@ const NavigationMobile = () => {
 				<li className="py-6 text-4xl">
 					<Link
 						onClick={handleClick}
-						to="/portfolio-tailwind-react/contact"
+						to="/portfolio/contact"
 						mooth={true}
 						duration={500}
 					>
