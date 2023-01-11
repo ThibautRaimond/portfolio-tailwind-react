@@ -70,7 +70,7 @@ const NavigationMobile = () => {
 					</Link>{" "}
 				</li>
 
-				{/* -- Réseaux -- */}
+				{/* - Réseaux - */}
 
 				<div className=" flex justify-between mt-4">
 					<li className="w-[60px] h-[60px] flex justify-between bg-[#0A66C2]  ">
